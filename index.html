@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Job PortalL</title>
+  
+    <style>
+        .corefeaturesection{
+            background-size: 100% 100%;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+        }
+
+        .ctaSection{
+          background-size: 100% 100%;
+        }
+
+        .companiesList{
+          animation:10s infinite linear moveCompany;
+        }
+
+        @keyframes moveCompany {
+          0%{
+            top:0;
+          }
+          100%{
+            top:-50%;
+          }
+        }
+
+    </style>
+    </head>
+<div>
+  <div class="overflow-x-hidden relative w-full">
+    
+    
+    <!--Navbar-->
+    <div class="bg-cyan-900"> 
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+        <!--logo-->
+        <a href="/" class="cursor-pointer py-7 pr-7">
+            <img
+            src="./images/logO.png"
+            width="100px"
+            height="10px"/>
+            </a>
+            <ul class="flex space-x-6">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group hidden lg:block">
+                <a href="#">Home</a>
+      
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+           transition-all duration-200 relative group hidden lg:block">
+          <a href="#">About us</a>
+          <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+          transition-all duration-200" ></div>
+          </li>
+          
+          <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+           transition-all duration-200 relative group hidden lg:block">
+          <a href="#">Jobs</a>
+          <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+          transition-all duration-200" ></div>
+        </li>
+        
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+           transition-all duration-200 relative group hidden lg:block">
+          <a href="#">Companies</a> 
+          <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+          transition-all duration-200" ></div>
+        </li>
+        
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+           transition-all duration-200 relative group hidden lg:block">
+          <a href="#">Dashboard</a>
+          <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+          transition-all duration-200" ></div>
+          </li>
+          
+          <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+           transition-all duration-200 relative group hidden lg:block">
+          <a href="#">Blog</a>
+          <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+          transition-all duration-200" ></div>
+        </li>
+         
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+           transition-all duration-200 relative group hidden lg:block">
+          <a href="#">Pages</a>
+          <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+          transition-all duration-200" ></div>
+        </li>
+    </ul>
+    <div class="flex space-x-6">    
+        <button class="py-3 px-5 font-mullish text-white border-blue-300 border
+        rounded-sm text-sm  font-bold">Log in</button>
+        <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
+          bg-white text-lightBlue300 border transition-all duration-200
+            hover:text-lightBlue500 lg:flex">Sign Up
+          <svg
+            viewBox="0 0 24 24"
+            focusable="false"
+            class="w-[14px] h-[14px] ml-3" >
+            
+                <path
+                 fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z">
+                </path>
+          </svg>
+            
+        </button>
+        </div>
+       
+     </div>
+    </div>
+  </nav>
+        
+ 
+  <!--mid- section-->
+   <section
+  class="relative bg-deepBlue">
+  <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto"> 
+     <!--left part-->
+     <div class="space-y-8">
+      <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Shine Your Career With JOBNOTION</h1>  
+      <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+        Its time to do the best work of your life.
+      </p>
+      <div class="flex -row space-x">
+        <input type="text" placeholder="Search jobs"
+         class="border border-green-950 rounded-md py-2 px-4 w-full sm:w-1/2 lg:w-1/20 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+         <input type="text" placeholder="Search location"
+         class="border border-green-950 rounded-md py-2 px-4 w-full sm:w-1/2 lg:w-1/20 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+      </div>
+      
+    
+      
+      <!--right part-->
+    <img src="./images/Ai.png" alt=""
+    class="max-w-[640px] max-h-[10]">
+  </div>   
+   </section>
+
+  <!--Companies section-->
+   <div class="bg-gray-100 py-8">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4">Job Categories</h2>
+    
+    <div class="flex flex-wrap justify-center">
+  <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div class="p-4">
+        <img src="./images/infosyslogo.png" alt="Infosys Logo" class="h-10 w-10">
+        <h3 class="text-lg font-semibold text-gray-800">Infosys</h3>
+        <p class="text-gray-600">Job Category: Software Engineering</p>
+        <div class="flex items-center text-sm text-gray-500 mt-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 0L6 7.5H0l5 7.5L3 20l7-5.833L17 20l-2-5.833L20 7.5h-6L10 0zm0 14.167L7.5 15.5l.833-2.5-2.5-1.667h3.334L10 7.5l.833 2.5h3.334l-2.5 1.667.833 2.5L10 14.167z" clipRule="evenodd" />
+          </svg>
+          <span class="ml-1">4.5/5</span>
+          <a href="https://www.example.com/infosys-reviews" target="_blank" class="ml-2 text-blue-500 hover:underline">See Reviews</a>
+        </div>
+      </div>
+      <div class="p-4 bg-gray-100">
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Apply</a>
+      </div>
+    </div>
+  </div>
+  <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div class="p-4">
+        <img src="./images/adobe.jpg" alt="Adobe Logo" class="h-10 w-10">
+        <h3 class="text-lg font-semibold text-gray-800">Adobe</h3>
+        <p class="text-gray-600">Job Category: Design</p>
+        <div class="flex items-center text-sm text-gray-500 mt-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 0L6 7.5H0l5 7.5L3 20l7-5.833L17 20l-2-5.833L20 7.5h-6L10 0zm0 14.167L7.5 15.5l.833-2.5-2.5-1.667h3.334L10 7.5l.833 2.5h3.334l-2.5 1.667.833 2.5L10 14.167z" clipRule="evenodd" />
+          </svg>
+          <span class="ml-1">4.8/5</span>
+          <a href="https://www.example.com/adobe-reviews" target="_blank" class="ml-2 text-blue-500 hover:underline">See Reviews</a>
+        </div>
+      </div>
+      <div class="p-4 bg-gray-100">
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Apply</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div class="p-4">
+        <img src="./images/google-logo.png" alt="Google Logo" class="h-10 w-10">
+        <h3 class="text-lg font-semibold text-gray-800">Google</h3>
+        <p class="text-gray-600">Job Category: Marketing</p>
+        <div class="flex items-center text-sm text-gray-500 mt-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 0L6 7.5H0l5 7.5L3 20l7-5.833L17 20l-2-5.833L20 7.5h-6L10 0zm0 14.167L7.5 15.5l.833-2.5-2.5-1.667h3.334L10 7.5l.833 2.5h3.334l-2.5 1.667.833 2.5L10 14.167z" clipRule="evenodd" />
+          </svg>
+          <span class="ml-1">4.7/5</span>
+          <a href="https://www.example.com/google-reviews" target="_blank" class="ml-2 text-blue-500 hover:underline">See Reviews</a>
+        </div>
+      </div>
+      <div class="p-4 bg-gray-100">
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Apply</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div class="p-4">
+        <img src="./images/micrologo.jpg" alt="Microsoft Logo" class="h-10 w-10">
+        <h3 class="text-lg font-semibold text-gray-800">Microsoft</h3>
+        <p class="text-gray-600">Job Category: Product Management</p>
+        <div class="flex items-center text-sm text-gray-500 mt-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 0L6 7.5H0l5 7.5L3 20l7-5.833L17 20l-2-5.833L20 7.5h-6L10 0zm0 14.167L7.5 15.5l.833-2.5-2.5-1.667h3.334L10 7.5l.833 2.5h3.334l-2.5 1.667.833 2.5L10 14.167z" clipRule="evenodd" />
+          </svg>
+          <span class="ml-1">4.6/5</span>
+          <a href="https://www.example.com/microsoft-reviews" target="_blank" class="ml-2 text-blue-500 hover:underline">See Reviews</a>
+        </div>
+      </div>
+      <div class="p-4 bg-gray-100">
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Apply</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div class="p-4">
+        <img src="./images/ICElogo.jpg" alt="ICE Logo" class="h-10 w-10">
+        <h3 class="text-lg font-semibold text-gray-800">ICE</h3>
+        <p class="text-gray-600">Job Category: Data Science</p>
+        <div class="flex items-center text-sm text-gray-500 mt-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 0L6 7.5H0l5 7.5L3 20l7-5.833L17 20l-2-5.833L20 7.5h-6L10 0zm0 14.167L7.5 15.5l.833-2.5-2.5-1.667h3.334L10 7.5l.833 2.5h3.334l-2.5 1.667.833 2.5L10 14.167z" clipRule="evenodd" />
+          </svg>
+          <span class="ml-1">4.2/5</span>
+          <a href="https://www.example.com/ice-reviews" target="_blank" class="ml-2 text-blue-500 hover:underline">See Reviews</a>
+        </div>
+      </div>
+      <div class="p-4 bg-gray-100">
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Apply</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div class="p-4">
+        <img src="./images/Amazon-Logo.jpg" alt="Amazon Logo" class="h-10 w-10">
+        <h3 class="text-lg font-semibold text-gray-800">Amazon</h3>
+        <p class="text-gray-600">Job Category: Product Management</p>
+        <div class="flex items-center text-sm text-gray-500 mt-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 0L6 7.5H0l5 7.5L3 20l7-5.833L17 20l-2-5.833L20 7.5h-6L10 0zm0 14.167L7.5 15.5l.833-2.5-2.5-1.667h3.334L10 7.5l.833 2.5h3.334l-2.5 1.667.833 2.5L10 14.167z" clipRule="evenodd" />
+          </svg>
+          <span class="ml-1">4.6/5</span>
+          <a href="https://www.example.com/Amazon-reviews" target="_blank" class="ml-2 text-blue-500 hover:underline">See Reviews</a>
+        </div>
+      </div>
+      <div class="p-4 bg-gray-100">
+        <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Apply</a>
+      </div>
+    </div>
+  </div> 
+  </div>
+  <div class="flex flex-wrap justify-center  container mx-auto px-4">
+    <!-- Company boxes go here -->
+  </div>
+  
+  <div class="flex justify-center mt-4">
+    <a href="#" class="bg-white hover:bg-blue-400 text-blue-500 hover:text-white font-semibold py-2 px-4 rounded-full inline-block">View All Companies</a>
+  </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+
+<footer class="bg-cyan-900 text-gray-300 py-8">
+  <div class="container mx-auto px-4">
+
+    <div class="w-full md:w-1/2 lg:w-1/4 mb-8">
+      <img
+            src="./images/logO.png"
+            width="100px"
+            height="10px"/>
+    </div>
+    <div class="flex flex-wrap justify-center">
+      <div class="w-full md:w-1/1 lg:w-1/4 mb-8">
+        <h4 class="text-xl font-semibold mb-4">About Us</h4>
+        <p class="text-sm">We are a job portal dedicated to connecting talented individuals with top technology companies worldwide. Our mission is to help professionals find their dream jobs and assist employers in finding the right talent for their organizations.</p>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/4 mb-8">
+        <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+        <ul class="list-none">
+          <li><a href="#" class="hover:text-blue-500">Home</a></li>
+          <li><a href="#" class="hover:text-blue-500">Jobs</a></li>
+          <li><a href="#" class="hover:text-blue-500">Companies</a></li>
+          <li><a href="#" class="hover:text-blue-500">About Us</a></li>
+          <li><a href="#" class="hover:text-blue-500">blogs</a></li>
+        </ul>
+      </div>
+      
+      <div class="w-full md:w-1/2 lg:w-1/4 mb-8">
+        <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+        <ul class="list-none">
+          <li><a href="#" class="hover:text-blue-500">Facebook</a></li>
+          <li><a href="#" class="hover:text-blue-500">Twitter</a></li>
+          <li><a href="#" class="hover:text-blue-500">LinkedIn</a></li>
+          <li><a href="#" class="hover:text-blue-500">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/4 mb-8">
+        <h4 class="text-xl font-semibold mb-4">Contact Information</h4>
+        <p class="text-sm">Job_notion@gmail.com</p>
+        <p class="text-sm">+1 234 490 0873</p>
+      </div>
+    </div>
+    <hr class="my-8 border-gray-700">
+    <p class="text-center text-sm"></p>
+  </div>
+</footer>   
+</body>
+ </html>
